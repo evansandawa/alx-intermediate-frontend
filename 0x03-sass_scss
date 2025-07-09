@@ -1,0 +1,35 @@
+#Here are the steps to install Sass:
+
+1. Prerequisites
+Before you can install Sass, you need to have Node.js and npm (Node Package Manager) installed on your system. If you don't have them, you can download and install Node.js from its official website: https://nodejs.org/. npm is bundled with Node.js.
+
+To verify if Node.js and npm are installed, open your terminal or command prompt and run these commands:
+
+node -v
+npm -v
+
+You should see version numbers for both if they are installed correctly.
+
+2. Install Sass Globally
+The easiest and recommended way to install Sass is globally using npm. This makes the sass command available from any directory in your terminal.
+
+Open your terminal or command prompt and run the following command:
+
+npm install -g sass
+
+npm install: This is the command to install a package using npm.
+
+-g: This flag tells npm to install the package globally.
+
+sass: This is the name of the package (the Dart Sass implementation).
+
+You might need to use sudo on macOS/Linux if you encounter permission errors:
+
+sudo npm install -g sass
+
+3. Verify the Installation
+After the installation is complete, you can verify that Sass is installed correctly by checking its version:
+
+sass --version
+
+You should see the version number of Dart Sass printed in your terminal, for example: 1.77.8.
